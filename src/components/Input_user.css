@@ -1,0 +1,85 @@
+
+
+.container_input{
+    display: flex;
+    background: #FFF;
+    justify-content: center;
+    padding: 0.5rem;
+    margin: 0.75rem 0;
+    
+    border-radius: 0.3rem;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5)
+}
+
+.container_input input{
+    font-family: Arial;
+    font-weight: bold;
+    background: transparent;
+    text-align: center;
+    border: 0;
+    font-size: 1rem;
+    color: #000;
+    outline: none;
+    margin-right: 8px;
+
+    height: 2rem;
+
+}
+
+.container_input input::placeholder{
+    color: #c7c7c7;
+    font-weight: normal;
+
+}
+
+.bt_procurar{
+    background: transparent;
+    border: 0;
+    margin-top: auto;
+    cursor: pointer;
+    color: #121212;
+    transition: all 0.5s;
+}
+
+.bt_procurar:hover{
+    transform: scale(1.2);
+}
+
+.resposta_api{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #121212;
+    width: 25rem;
+    border-radius: 0.3rem;
+}
+
+.resposta_api h2{
+    margin: 0.75rem;
+    font-size: 2rem;
+}
+
+.resposta_api span{
+    margin: 0.3rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.ind{
+    color: #BD34FE;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+@media (max-width: 700px){
+    .resposta_api{
+        margin-top: 2rem;
+        width:326px;
+        min-height: 280px;
+    }
+
+}
+
+
